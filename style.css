@@ -2,6 +2,10 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+blockquote {
+    margin: 30px 0;
+    display: block;
+}
 
 .text-center {
     text-align: center;
@@ -36,6 +40,9 @@ section.secondary {
 .embed {
     width: 100%;
     aspect-ratio: 1 / 1;
+}
+.instagram-embeds {
+    margin: 30px 0;
 }
 
 .card {
@@ -206,5 +213,9 @@ main h5 {
     }
     .embed {
         aspect-ratio: 16 / 9;
+    }
+    blockquote {
+        margin: 0 auto;
+
     }
  }
